@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.row{
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10%;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    background-color:rgb(141, 51, 153);
+
+}
+.img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    background-size: 200px;
+    border: 2px solid white;
+    transition:  width 10s height 10s border radius 10s;
+}
+.img:hover{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+h2{
+    margin-left: 20px;
+}
+.carousel-cell {
+            width: 100%;
+            margin-right: 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+           margin-bottom: 20px;
+
+        }
+
+.content{
+    text-transform: uppercase;
+    font: bold;
+    object-fit: fill;
+    
+    
+}
+h1{
+    text-align: center;
+}
+.order{
+    list-style-type: decimal;
+    text-align: left;
+    margin:0 20px 0 20px;
+    text-align: justify;
+}
+.sub {
+    padding-left: 20%;
+    
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    text-align: left;
+    margin: 20px;
+}
+section h1 span{
+          background: linear-gradient(to right, #f53790, #1239bb);
+            padding: 10px 50px;
+            border-radius: 20px;
+            color: white;
+          
+}
+ 
+
+.footer{
+    display: flex;
+         color: white;
+            font-size: 20px;
+            padding: 30px;
+            text-decoration: none;
+            background-color: grey;
+             word-spacing: 3px;
+
+}
+.obj{
+    margin: 30px;
+    font-weight: 300;
+    padding: 0 30px 0px 30px;
+    
+}
+.footer a:hover{
+    color: green;
+    background-color: black;
+    cursor: pointer;
+
+    
+}
+.skill-container{
+    margin-left: 20px;
+}
+.skill{
+    margin-bottom: 20px;
+    width: 400px;
+}
+.skill-name{
+    margin-bottom: 8px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.progress-bar{
+    background-color: #555;
+    height: 10px;
+    border-radius: 2px;
+    width: 100%;
+
+}
+.progress-fill{
+    background-color: rgb(144, 153, 238);
+    height: 100%;
+    border-radius: 2px;
+    transition: width 1s ease-in-out;
+}
+
+h4{
+    text-align: center;
+}
+ @media(max-width:700px) {
+           .footer {
+                flex-direction: column;
+            }
+            
